@@ -1,0 +1,26 @@
+.status-bar {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.status-bar__column {
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.status-bar__column:nth-child(2) {
+  font-weight: 500;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  justify-content: flex-end;
+}
+
+.status-bar__column i {
+  margin-left: 5px;
+}
