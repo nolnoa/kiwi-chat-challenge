@@ -1,0 +1,20 @@
+.main-header {
+  margin: 50px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__column h1 {
+  font-size: 28px;
+}
+
+.main-header__column {
+  display: flex;
+  align-items: center;
+}
+
+.main-header__column i {
+  font-size: 22px;
+  margin-left: 16px;
+}
