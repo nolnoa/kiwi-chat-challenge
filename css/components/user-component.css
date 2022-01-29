@@ -1,0 +1,82 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__img {
+  height: 70px;
+  width: 70px;
+  border-radius: 40%;
+}
+
+.user-component__img--mid {
+  height: 60px;
+  width: 60px;
+}
+
+.user-component__img--small {
+  height: 50px;
+  width: 50px;
+}
+
+.user-component__text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 16px;
+}
+
+.user-component__text h6 {
+  margin-bottom: 5px;
+}
+
+.user-component__gift-shop {
+  height: 20px;
+  width: 90px;
+  border: 1px solid tomato;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blank-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--theme-color-c);
+}
+
+.blank-img--birthday {
+  color: whitesmoke;
+}
+
+.blank-img--kiwi-pay {
+  height: 60px;
+  width: 60px;
+  color: var(--theme-color-a);
+  font-weight: 600;
+}
+
+.blank-img--kiwi-pay div {
+  height: 20px;
+  width: 15px;
+  border-radius: 40%;
+  background-color: var(--theme-color-a);
+  margin-right: 3px;
+}
+
+.fa-chevron-right {
+  margin-left: 3px;
+  padding-bottom: 2px;
+}

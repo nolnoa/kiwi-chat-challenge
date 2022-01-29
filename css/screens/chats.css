@@ -1,0 +1,19 @@
+#me {
+  display: flex;
+}
+
+#me-icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: var(--theme-color-a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.me-icon__text {
+  font-size: 10px;
+  color: var(--theme-color-e);
+}

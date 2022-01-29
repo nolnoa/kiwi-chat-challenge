@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends</title>
+    <title>Chats</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -27,11 +27,11 @@
     <main>
       <header class="main-header">
         <div class="main-header__column">
-          <h1>Friends</h1>
+          <h1>Chats</h1>
         </div>
         <div class="main-header__column">
           <i class="fas fa-search"></i>
-          <i class="fas fa-user-plus"></i>
+          <i class="fas fa-comment"></i>
           <i class="fas fa-headphones"></i>
           <i class="fas fa-cog"></i>
         </div>
@@ -39,60 +39,23 @@
 
       <div class="user-component">
         <div class="user-component__column">
-          <img class="user-component__img" src="photos/kiwi.png" />
+          <img
+            class="user-component__img user-component__img--mid"
+            src="photos/kiwi.png"
+          />
           <div class="user-component__text">
-            <h2>KIWI</h2>
+            <h4 id="me">
+              <div id="me-icon">
+                <span class="me-icon__text">me</span>
+              </div>
+              KIWI
+            </h4>
             <span class="span-font">I need more friends!</span>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-
-      <div class="global-divider"></div>
-
-      <div class="friends-section">
-        <span class="span-font">Friends with Birthdays</span>
-        <i class="span-font--small fas fa-chevron-up"></i>
-      </div>
-
-      <div class="user-component">
         <div class="user-component__column">
-          <img
-            class="user-component__img user-component__img--small"
-            src="photos/pineapple.png"
-          />
-          <div class="user-component__text">
-            <h6>Pineapple</h6>
-            <span class="span-font span-font--small">I'm cool!</span>
-          </div>
+          <span class="span-font--small">10:16</span>
         </div>
-        <div class="user-component__column">
-          <div class="user-component__gift-shop">
-            <span class="span-font--small">Gift Shop</span>
-            <span>🎁</span>
-          </div>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <div class="blank-img blank-img--birthday">
-            <i class="fas fa-birthday-cake fa-lg"></i>
-          </div>
-          <div class="user-component__text">
-            <h6>View more birthdays</h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span class="span-font--small">0</span>
-          <span><i class="span-font--small fas fa-chevron-right"></i></span>
-        </div>
-      </div>
-
-      <div class="global-divider"></div>
-
-      <div class="friends-section">
-        <span class="span-font">Friends 1</span>
-        <i class="span-font--small fas fa-chevron-up"></i>
       </div>
 
       <div class="user-component">
@@ -103,22 +66,72 @@
           />
           <div class="user-component__text">
             <h4>Pineapple</h4>
-            <span class="span-font">I'm cool!</span>
+            <span class="span-font">Oh, come on!</span>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <span class="span-font--small">Yesterday</span>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <div class="blank-img blank-img--kiwi-pay">
+            <div></div>
+            <span>Pay</span>
+          </div>
+          <div class="user-component__text">
+            <h4>KIWI Pay</h4>
+            <span class="span-font">[KIWI Pay] Notice</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="span-font--small">Yesterday</span>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__img user-component__img--mid"
+            src="photos/post.jpeg"
+          />
+          <div class="user-component__text">
+            <h4>Post Office</h4>
+            <span class="span-font">(Promotion)</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="span-font--small">Jan 17</span>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__img user-component__img--mid"
+            src="photos/carrot.jpeg"
+          />
+          <div class="user-component__text">
+            <h4>Carrot Market</h4>
+            <span class="span-font">(Promotion)</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="span-font--small">Jan 8</span>
+        </div>
       </div>
     </main>
 
     <nav class="nav-bar">
       <div class="nav-bar__friends">
         <a href="friends.html"
-          ><span><i class="fas fa-user" id="nav-bar__focused"></i></span
+          ><span><i class="fas fa-user"></i></span
         ></a>
       </div>
       <div class="nav-bar__chats">
         <a href="chats.html"
-          ><span><i class="fas fa-comment"></i></span
+          ><span><i class="fas fa-comment" id="nav-bar__focused"></i></span
         ></a>
       </div>
       <div class="nav-bar__view">
