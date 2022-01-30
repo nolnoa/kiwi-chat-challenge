@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>View</title>
+    <title>Shopping</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -28,59 +28,72 @@
       <main>
         <header class="main-header">
           <div class="main-header__column">
-            <h1>View</h1>
+            <h1>Shopping</h1>
           </div>
           <div class="main-header__column">
-            <i class="fas fa-search"></i>
+            <i class="main-header__icon-mod far fa-square">
+              <div class="main-header__icon-mod-block"></div>
+              <div class="main-header__icon-mod-block"></div>
+              <div class="main-header__icon-mod-block"></div>
+              <div class="main-header__icon-mod-block"></div>
+              <div class="main-header__icon-mod-bar"></div>
+            </i>
             <i class="fas fa-headphones"></i>
             <i class="fas fa-cog"></i>
           </div>
         </header>
-
-        <div class="header-column">
-          <div class="header-column__menu">
-            <h4>Discovery</h4>
-          </div>
-          <div class="header-column__menu">
-            <h4>Covid 19</h4>
-          </div>
-          <div class="header-column__menu">
-            <h4>KIWI TV</h4>
-          </div>
-        </div>
+        <div class="global-divider"></div>
       </main>
     </div>
 
-    <div class="fixed-menu-area">
-      <section class="content-menu">
-        <div class="content-menu__btn btn-focused">
-          <span class="btn-focused__text">All</span>
-        </div>
-        <div class="content-menu__btn">
-          <span>News</span>
-        </div>
-        <div class="content-menu__btn">
-          <span>Money</span>
-        </div>
-        <div class="content-menu__btn">
-          <span>Fashion</span>
-        </div>
-        <div class="content-menu__btn">
-          <span>Beauty</span>
-        </div>
-        <div class="content-menu__btn">
-          <span>Politics</span>
-        </div>
-        <div class="content-menu__btn">
-          <span>Culture</span>
-        </div>
-      </section>
-    </div>
+    <section class="shopping-menu">
+      <div class="shopping-menu__column">
+        <i class="fas fa-gifts fa-2x"></i>
+        <span>Gift</span>
+      </div>
+      <div class="shopping-menu__column">
+        <i class="fas fa-store fa-2x"></i>
+        <span>For Me</span>
+      </div>
+      <div class="shopping-menu__column">
+        <i class="far fa-comment-alt fa-2x"></i>
+        <span class="shopping-menu__icon-mod--live">SHOP</span>
+        <span>On Air</span>
+      </div>
+    </section>
 
-    <img
-      class="commercial-photo commercial-photo--margin"
-      src="photos/kiwi-ad2.png"
-    />
+    <img class="commercial-photo" src="photos/kiwi-ad1.png" />
+
+    <section class="shopping-search">
+      <input type="text" placeholder="Discover what you want." />
+      <i class="shopping-search__search-icon fas fa-search fa-lg"></i>
+      <div class="shopping-search__recommend">
+        <div class="shopping-search__recommend__title">
+          <span>Hot</span>
+          <i class="fas fa-info-circle"></i>
+        </div>
+        <div class="shopping-search__recommend__hot-items-list">
+          <div class="shopping-search__recommend__hot-items-btn">
+            <span>kiwi</span>
+          </div>
+          <div class="shopping-search__recommend__hot-items-btn">
+            <span>banana</span>
+          </div>
+          <div class="shopping-search__recommend__hot-items-btn">
+            <span>pineapple</span>
+          </div>
+          <div class="shopping-search__recommend__hot-items-btn">
+            <span>lemon</span>
+          </div>
+          <div class="shopping-search__recommend__hot-items-btn">
+            <span>grape</span>
+          </div>
+          <div class="shopping-search__recommend__hot-items-btn">
+            <span>blueberry</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="view-content">
       <div class="view-content__header">
@@ -184,12 +197,12 @@
       </div>
       <div class="nav-bar__view">
         <a href="view.html"
-          ><span><i class="fas fa-kiwi-bird" id="nav-bar__focused"></i></span
+          ><span><i class="fas fa-kiwi-bird"></i></span
         ></a>
       </div>
       <div class="nav-bar__shopping">
         <a href="shopping.html"
-          ><span><i class="fas fa-shopping-bag"></i></span
+          ><span><i class="fas fa-shopping-bag" id="nav-bar__focused"></i></span
         ></a>
       </div>
       <div class="nav-bar__more">
