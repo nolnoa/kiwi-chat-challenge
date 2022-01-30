@@ -99,3 +99,65 @@
   padding-top: 4px;
   color: #56d3e8;
 }
+
+.shopping-deal {
+  margin-top: 20px;
+  padding: 0px 15px;
+}
+
+.shopping-deal__top {
+  display: flex;
+  justify-content: space-between;
+  color: var(--theme-color-b);
+  margin-bottom: 20px;
+}
+
+.shopping-deal__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping-deal__content__row {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.shopping-deal__content__column {
+  width: 49%;
+  position: relative;
+}
+
+.shopping-deal__content__column img {
+  width: 100%;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+
+.shopping-deal__content__img-mark {
+  background-color: var(--theme-color-b);
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  padding: 9px 5px 5px;
+  border-radius: 8px;
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+.shopping-deal__nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.shopping-deal__nav-btn__chevron {
+  padding: 10px 20px 6px;
+  border: 1px solid var(--theme-color-d);
+  border-radius: 8px;
+}
+
+.shopping-deal__nav-btn div:nth-child(2) {
+  margin: 0px 15px;
+  color: var(--theme-color-c);
+}
