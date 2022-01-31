@@ -4,3 +4,7 @@
   justify-content: space-between;
   padding: 10px 0px;
 }
+
+.user-component__friends--margin-top {
+  padding-top: 108px;
+}

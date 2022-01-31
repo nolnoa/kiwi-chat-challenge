@@ -1,0 +1,127 @@
+.chat-header {
+  width: 100%;
+  background-color: var(--theme-color-e);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  padding: 47px 15px 20px;
+}
+
+.chat-header__column {
+  width: 33%;
+}
+
+.chat-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.chat-header__column:last-child {
+  text-align: right;
+}
+
+.chat-header__column:last-child i {
+  margin-left: 12px;
+  color: var(--theme-color-b);
+}
+
+.chat-content {
+  padding: 105px 15px;
+}
+
+.chat-content__timestamp {
+  text-align: center;
+  opacity: 0.8;
+}
+
+.chat-content__timestamp span {
+  background-color: var(--theme-color-d);
+  padding: 3px 16px 0px;
+  border-radius: 20px;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.chat-content__text {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+  opacity: 0.8;
+}
+
+.chat-content__text__bubble--link {
+  text-align: right;
+  background-color: whitesmoke;
+  width: 185px;
+  overflow-wrap: break-word;
+  padding: 15px 13px 10px;
+  border-radius: 15px 0px 15px 15px;
+}
+
+.chat-content__link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 5px 0px 40px;
+}
+
+.chat-content__link span {
+  margin-right: 5px;
+  font-size: 12px;
+  color: var(--theme-color-c);
+}
+
+.chat-content__link-block {
+  background-color: whitesmoke;
+  width: 200px;
+  border-radius: 15px;
+  color: var(--theme-color-c);
+}
+
+.chat-content__link-block img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.chat-content__link-block h6 {
+  font-size: 15px;
+  padding: 5px 10px 10px;
+  opacity: 0.5;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 8;
+  bottom: 0;
+  padding: 8px 0px;
+  background-color: var(--theme-color-e);
+  width: 100%;
+  color: var(--theme-color-c);
+  border-top: 1px solid whitesmoke;
+}
+
+.chat-input .fa-times-circle {
+  transform: rotateZ(45deg);
+  margin: 0px 10px;
+}
+
+.chat-input input {
+  border-radius: 30px;
+  border: none;
+  padding: 10px 14px;
+  width: 83%;
+}
+
+.chat-input__emoticon-inside {
+  display: flex;
+  position: absolute;
+  right: 30px;
+}
+
+.chat-input__emoticon-inside i {
+  margin-left: 10px;
+}

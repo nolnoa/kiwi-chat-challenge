@@ -1,0 +1,19 @@
+#wide-screen-alert {
+  background-color: var(--theme-color-d);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+@media screen and (max-width: 550px) {
+  #wide-screen-alert {
+    visibility: hidden;
+  }
+}

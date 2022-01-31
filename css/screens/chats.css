@@ -3,6 +3,14 @@
   margin-bottom: 20px;
 }
 
+.chats-photo--margin-top {
+  margin-top: 109px;
+}
+
+.chats-font {
+  font-size: 13px;
+}
+
 #me {
   display: flex;
 }

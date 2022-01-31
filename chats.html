@@ -25,40 +25,49 @@
     </div>
 
     <main>
-      <header class="main-header">
-        <div class="main-header__column">
-          <h1>Chats</h1>
-        </div>
-        <div class="main-header__column">
-          <i class="fas fa-search"></i>
-          <i class="fas fa-comment"></i>
-          <i class="fas fa-headphones"></i>
-          <i class="fas fa-cog"></i>
-        </div>
-      </header>
+      <div class="fixed-header-area">
+        <header class="main-header">
+          <div class="main-header__column">
+            <h1>Chats</h1>
+          </div>
+          <div class="main-header__column">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-comment"></i>
+            <i class="fas fa-headphones"></i>
+            <i class="fas fa-cog"></i>
+          </div>
+        </header>
+      </div>
 
-      <img class="commercial-photo" src="photos/kiwi-ad3.png" />
+      <img
+        class="commercial-photo chats-photo--margin-top"
+        src="photos/kiwi-ad3.png"
+      />
 
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__img user-component__img--mid"
-            src="photos/kiwi.png"
-          />
-          <div class="user-component__text">
-            <h4 id="me">
-              <div id="me-icon">
-                <span class="me-icon__text">me</span>
-              </div>
-              KIWI
-            </h4>
-            <span class="span-font">I need more friends!</span>
+      <a href="chat-me.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__img user-component__img--mid"
+              src="photos/kiwi.png"
+            />
+            <div class="user-component__text">
+              <h4 id="me">
+                <div id="me-icon">
+                  <span class="me-icon__text">me</span>
+                </div>
+                KIWI
+              </h4>
+              <span class="span-font chats-font"
+                >https://v.kakao.com/v/<br />20200806180341612</span
+              >
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="span-font--small">10:16</span>
           </div>
         </div>
-        <div class="user-component__column">
-          <span class="span-font--small">10:16</span>
-        </div>
-      </div>
+      </a>
 
       <div class="user-component">
         <div class="user-component__column">
@@ -152,6 +161,11 @@
         ></a>
       </div>
     </nav>
+
+    <div id="wide-screen-alert">
+      <h2>Please resize your browser narrower.</h2>
+      <h4>Optimized in mobile screen size. ; )</h4>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

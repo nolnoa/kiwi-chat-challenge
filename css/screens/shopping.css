@@ -31,6 +31,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.shopping-search__input-container {
+  width: 80%;
   position: relative;
 }
 
@@ -38,13 +42,13 @@
   border-radius: 8px;
   padding: 15px 40px;
   border: none;
-  width: 80%;
+  width: 100%;
   margin-bottom: 20px;
 }
 
 .shopping-search__search-icon {
   position: absolute;
-  left: 48px;
+  left: 10px;
   top: 15px;
   color: #56d3e8;
 }
@@ -119,6 +123,7 @@
 
 .shopping-deal__content__row {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 15px;
 }
 

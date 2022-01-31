@@ -6,6 +6,8 @@
 @import "components/nav-bar.css";
 @import "components/main-header.css";
 @import "components/user-component.css";
+@import "components/wide-screen-alert.css";
+@import "components/splash-screen.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -14,6 +16,7 @@
 @import "screens/view.css";
 @import "screens/shopping.css";
 @import "screens/more.css";
+@import "screens/chat.css";
 
 :root {
   --theme-color-a: #272c1e;
