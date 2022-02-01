@@ -109,16 +109,11 @@
   margin: 0px 10px;
 }
 
-.chat-input__input {
-  position: relative;
-  width: 100%;
-}
-
 .chat-input input {
   border-radius: 25px;
   border: none;
   padding: 10px 14px;
-  width: 96%;
+  width: 83%;
 }
 
 .chat-input__emoticon-inside {
